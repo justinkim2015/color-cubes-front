@@ -1,15 +1,22 @@
 import Cube from './cube/Cube'
+import './cubes.css'
 
 function Cubes() {
   return(
-    <div>
+    <section id='cubes'>
       <Cube></Cube>
       <Cube></Cube>
       <Cube></Cube>
       <Cube></Cube>
       <Cube></Cube>
       <Cube></Cube>
-    </div>
+      <Cube></Cube>
+      <Cube></Cube>
+      <Cube></Cube>
+      <Cube></Cube>
+      <Cube></Cube>
+      <Cube></Cube>
+    </section>
   )
 }
 
