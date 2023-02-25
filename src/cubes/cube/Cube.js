@@ -1,9 +1,9 @@
 import './cube.css'
 
-function Cube() {
+function Cube({type}) {
   return(
     <div className='cube'>
-
+      {type}
     </div>
   )
 }
